@@ -3,24 +3,18 @@ import {Link} from 'react-router-dom'
 
 export default function Navbar() {
   return (
- <section className="bg-warning">
+ <section className="bg-primary">
        <div className="container">
-      <nav class="nav  ">
-        <Link class="nav-link active" aria-current="page" to="/">
+      <nav class="nav">
+        <Link class="nav-link active text-white" to="/">
           Home
         </Link>
-        <Link class="nav-link" to="/about">
-          About
-        </Link>
-        <Link class="nav-link" to="/blog">
-          Blog
-        </Link>
+      
         <Link
-          class="nav-link"
-          to="/contact"
-       
+          class="nav-link ms-auto"
+          to="/addstudent"
         >
-          Contact
+          <i class="bi bi-plus-circle"></i>
         </Link>
       </nav>
     </div>
