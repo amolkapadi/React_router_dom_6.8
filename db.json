@@ -1,0 +1,12 @@
+{
+  "stud": [
+    {
+      "name": "Rahul ",
+      "addres": "Pune",
+      "email": "rahul@gmail.com",
+      "gender": "male",
+      "subject": "Operating system ",
+      "id": 2
+    }
+  ]
+}

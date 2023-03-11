@@ -5,9 +5,8 @@ import {
   RouterProvider,
 } from 'react-router-dom'
 import Home from './Component/Home'
-import About from './Component/About'
-import Blog from './Component/Blog'
-import Contact from './Component/Contact'
+import AddStudent from './Component/AddStudent'
+import EditStudent from "./Component/EditStudent"
 import RootLayout from './Routes/RootLayout'
 
 
@@ -21,16 +20,12 @@ const router = createBrowserRouter([
         element:<Home />
       },
       {
-        path:"/about",
-        element:<About />
+        path:"/addstudent",
+        element:<AddStudent />
       },
       {
-        path:"/blog",
-        element:<Blog />
-      },
-      {
-        path:"/contact",
-        element:<Contact />
+        path:"/editstudent/:id",
+        element:<EditStudent />
       }
     ]
   }
