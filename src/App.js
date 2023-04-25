@@ -4,9 +4,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom'
-import Home from './Component/Home'
-import AddStudent from './Component/AddStudent'
-import EditStudent from "./Component/EditStudent"
+import Home from './Pages/Home/Home'
+
 import RootLayout from './Routes/RootLayout'
 
 
@@ -19,14 +18,7 @@ const router = createBrowserRouter([
         path:"/",
         element:<Home />
       },
-      {
-        path:"/addstudent",
-        element:<AddStudent />
-      },
-      {
-        path:"/editstudent/:id",
-        element:<EditStudent />
-      }
+   
     ]
   }
   

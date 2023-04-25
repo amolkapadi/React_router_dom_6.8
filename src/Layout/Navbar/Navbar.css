@@ -1,0 +1,7 @@
+.bg-light{
+    padding: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    border-radius: 0;
+}

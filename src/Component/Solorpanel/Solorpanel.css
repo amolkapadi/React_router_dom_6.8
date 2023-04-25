@@ -1,0 +1,15 @@
+.nav {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 184px;
+    background-color: #f8f9fa!important;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .nav {
+        padding: 12px;
+        background: antiquewhite;
+    }
+  
+  } */
